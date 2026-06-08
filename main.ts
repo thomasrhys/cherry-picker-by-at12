@@ -4,6 +4,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
     otherSprite.destroy()
 })
 let cherry = 0
+let time_gained = 0
 let ahjgkbf = 60
 game.splash("cherry picker")
 tiles.setTilemap(tilemap`level1`)
@@ -30,6 +31,7 @@ scene.cameraFollowSprite(mySprite)
 info.startCountdown(ahjgkbf)
 info.setScore(1.1111111111111111e+291)
 game.onUpdateInterval(1000, function () {
+    time_gained = 0
     cherry = 0
     sprites.create(img`
         . . . . . . . . . . . 6 6 6 6 6 
