@@ -1,0 +1,35 @@
+{
+    "tile0": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "tile5": {
+        "data": "hwQQABAAAAAiQkRVdXeIqiJCRFV1d4iqIkJEVXV3iKoiQkRVdXeIqiJCRFV1d4iqIkJEVXV3iKoiQkRVdXeIqiJCRFV1d4iqIkJEVXV3iKoiQkRVdXeIqiJCRFV1d4iqIkJEVXV3iKoiQkRVdXeIqiJCRFV1d4iqIkJEVXV3iKoiQkRVdXeIqg==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "level1": {
+        "id": "level1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAwYTAwMDgwMDAxMDcwNzA3MDcwNzA3MDcwNzAyMDgwOTA5MDkwOTA5MDkwOTA5MDYwODA5MDkwOTA5MDkwOTA5MDkwNjA4MDkwOTA5MDkwOTA5MDkwOTA2MDgwOTA5MDkwOTA5MDkwOTA5MDYwODA5MDkwOTA5MDkwOTA5MDkwNjA4MDkwOTA5MDkwOTA5MDkwOTA2MDQwNTA1MDUwNTA1MDUwNTA1MDMwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.tile0",
+            "sprites.dungeon.darkGroundNorthWest0",
+            "sprites.dungeon.darkGroundNorthEast0",
+            "sprites.dungeon.darkGroundSouthEast0",
+            "sprites.dungeon.darkGroundSouthWest0",
+            "sprites.dungeon.darkGroundSouth",
+            "sprites.dungeon.darkGroundEast",
+            "sprites.dungeon.darkGroundNorth",
+            "sprites.dungeon.darkGroundWest",
+            "sprites.dungeon.darkGroundCenter"
+        ],
+        "displayName": "level1"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
