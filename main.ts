@@ -30,7 +30,7 @@ controller.moveSprite(mySprite)
 scene.cameraFollowSprite(mySprite)
 info.startCountdown(ahjgkbf)
 info.setScore(1.1111111111111111e+291)
-game.onUpdateInterval(1000, function () {
+game.onUpdateInterval(500, function () {
     time_gained = 0
     cherry = 0
     sprites.create(img`
