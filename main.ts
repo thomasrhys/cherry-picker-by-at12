@@ -6,7 +6,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 let cherry = 0
 let time_gained = 0
 let ahjgkbf = 60
-game.splash("cherry picker")
+game.splash("Cherry Picker 2")
 tiles.setTilemap(tilemap`level1`)
 let mySprite = sprites.create(img`
     .....6eeeeeeeeeece6.....
